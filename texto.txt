@@ -1,0 +1,65 @@
+
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512">
+
+  <!-- Fondo -->
+  <rect width="512" height="512" fill="#c62828"/>
+
+  <!-- Sombra de la N -->
+  <path d="
+    M130 100
+    H190
+    L322 300
+    V100
+    H382
+    V412
+    H322
+    L190 212
+    V412
+    H130
+    Z"
+    fill="#d32f2f"/>
+
+  <!-- Cara principal -->
+  <path d="
+    M110 80
+    H170
+    L302 280
+    V80
+    H362
+    V392
+    H302
+    L170 192
+    V392
+    H110
+    Z"
+    fill="#ffffff"/>
+
+  <!-- Relieve superior -->
+  <path d="
+    M110 80
+    H170
+    L182 98
+    H122
+    Z
+
+    M302 280
+    L314 298
+    V98
+    L302 80
+    Z"
+    fill="#f0f0f0"/>
+
+  <!-- Relieve lateral -->
+  <path d="
+    M170 80
+    L182 98
+    L314 298
+    L302 280
+    Z"
+    fill="#e0e0e0"/>
+
+</svg>
